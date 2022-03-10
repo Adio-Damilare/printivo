@@ -1,565 +1,571 @@
-@media screen and (max-width:375px) { 
-    *{
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-        font-family: roboto,helvetica neue,Arial, Helvetica, sans-serif;
-    }
-    nav{
-        padding: 0px;
-        display: flex;
-        height: 70px;
-        font-size: 13px;
-        background-color: #FfFF;
-        justify-content: space-around;
-    }
-    
-    .nav{
-        display: none;
-    
-    }
-    .nav2 #border a{
-        margin: 03px;
-        color: #73849B;
-    }
-    
-    .nav2 #border{
-        padding-left: 3px;
-        height: 25px;
-        width: 80px;
-        display: flex;
-    
-        border:0.2px solid rgb(87, 84, 84);
-        border-radius: 30px;
-    }
-    .nav{
-        margin-right: 40px;
-    }
-    .nav a{
-        margin:30px 30px;
-        color: #708aaa;
-        text-decoration: none;
-    }
-    .nav2 p{
-        margin:30px 30px ;
-        color: #708aaa;
-    }
-    .nav2 p a{
-        text-decoration: none;
-        color: #45B1F2;
-    }
-    
-    .nav2{
-        width: 375px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    #section1{
-        background-color:#ECE8D9;
-        padding: 20px 30px;
-        width: 98%;
-        height: 12vh;
-        position: sticky;
-        top: 0.1px;
-        display: flex;
-    
-    }
-    #section1 ul {
-        margin-top:10px ;
-        display: none;
-    }
-    #section1 ul li #sign{
-        color: red;
-    }
-    #section1 ul li{
-        margin-left: 40px;
-        list-style: none;
-    }
-    #section1 ul li a{
-        text-decoration: none;
-        font-size: 14px;
-    }
-    #section1 ul{
-        display: none;
-    } 
-    #section1 .menu button{
-        display: none;
-    }
-    #section1 .menu input{
-        display: none;
-    }
-    #section1 .img{
-        width: 35%;
-        padding: 0px 4px;
-    }
-    .section2{
-        flex-direction: column;
-        display: flex;
-        background-color: #ECE8D9;
-        height: 120vh;
-    }
-    .section2 .quality{
-        width: 375px;
-        height: 100vh;
-        padding-top: 30px;
-        padding-left: 10px;
-        background-color: #ECE8D9;
-    }
-    .section2 .quality #print{
-        height: 60vh;
-    }
-    .section2 .quality h1{
-    font-size: 10vh;
-    color: #384A62;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    height: 30vh;
-    }
-    .section2 .quality #prints p{
-        height: 70px;
-        font-size: 26px;
-        color: #7F8C9D;
-        font-weight: bold;
-    }
-    .section2 .quality .search{
-        height: 30vh;
-    }
-    .section2 .quality .search p{
-        color: black;
-        height: 50px;
-    }
-    .section2 .quality .search #search1 input::placeholder{
-        font-size: medium;
-        height: 100%;
-        width: 100%;
-    }
-    .section2 .quality .search #search1 input{
-        outline-style: none;
-        border: none;
-        width: 190px;
-    
-    }
-    .section2 .quality .search #search1 img{
-        width: 20px;
-        height: 20px;
-        margin: 30px;
-    }
-    .section2 .quality .search #search1{
-        display: flex;
-        justify-content: space-between;
-        height: 50%;
-        width: 90%;
-        background-color: white;
-    }
-    .section2 .search p{
-        height: 50px;
-        font-weight: bold;
-        font-size: medium;
-    }
-    .section2 .img {
-        width: 375px;
-        height: 59vh;
-    }
-    .section2 .img img{
-        width: 100%;
-        height: 100%;
-    }
-    .section3{
-        height: 1000vh;
-        width: 99%;
-        display: flex;
-        padding-left: 0px;
-        flex-direction: column;
-    }
-    .section3 .h2{
-        
-        height: 40vh;
-        padding:  70px 0px 0px ;
-        justify-content: space-between;
-        display: flex;
-        flex-direction: column;
-    }
-    .section3 .productlist{
-        display: flex;
-        width: 300px;
-        height: 900vh;
-        margin-left: 0px;
-        flex-wrap: wrap;
-    }
-    .section3 .productlist .product{
-        box-shadow: 2px 2px 2px 2px rgb(173, 164, 164);
-        height: 400px;
-        margin: 20px ;
-        width: 300px;
-    }
-    .section3 .productlist .product img:hover{
-        transform: scale(1.05);
-    }
-    .section3 .productlist .product img{
-        width: 300px;
-        height: 200px;
-    }
-    .section3 .productlist .product .prize{
-        width: 100%;
-        height: 40%;
-        padding-left: 20px;
-    
-    }
-    .section3 .productlist .product .prize b{
-        font-size: 16px;
-        height: 40%;
-        transform: translate(0px, 70px);
-    
-    }
-    .section3 .productlist .product .prize h3{
-        height: 20%;
-        transform: translate(0px,40px);
-      
-    }
-    .section3 .productlist .product .prize p{
-        height: 20%;
-        transform: translate(0px, 28px);
-    }
-    .section3 .productlist .product .prize button{
-        height: 30px;
-        width: 180px;
-        border: none;
-        border-radius: 3px;
-        background-color: #D77F81;
-        color: white;
-        margin: 40px 0px;
-    }
-    .section3 .productlist .product .prize button a{
-        color: white;
-        text-decoration: none;
-    }
-    .section3 .h2 h2{
-        font-size: 32px;
-        font-weight: lighter;
-        margin-left: 29px;
-        color: #708aaa;
-    }
-    .section3 .h2 a{
-        padding-top: 10px;
-        text-decoration: none;
-        color: #D77F81;
-        margin-right: 57px;
-    }
-    .section3 .secondone{
-        height: 300vh;
-    }
-    .section3 .secondone .categories{
-        height: 30vh;
-        display: flex;
-        flex-direction: column;
-        padding: 20px 0px 10px 10px;
-        justify-content: space-between;
-    }
-    .section3 .secondone .categories h2{
-        font-size: 32px;
-        font-weight: lighter;
-        color: #708aaa;
-    } 
-    .section3 .secondone .categories a{
-        text-decoration: none;
-        color: #D77F81;
-    }
-    .section3 .secondone .common{
-        display: flex; 
-        height: 200vh;
-        flex-direction: column;
-        padding-left: 24px; 
-    }
-    .section3 .secondone .common .product{
-        height: 400px;
-        width: 300px;
-        box-shadow: 2px 2px 2px 2px rgb(173, 164, 164);
-        margin: 20px 18px;
-    } 
-    .section3 .secondone .common .product .img{
-        width: 100%;
-        height: 55%;
-    }
-    .section3 .secondone .common .product .img img{
-        width: 99.5%;
-        margin: auto;
-        background-color: #BEBDBB;
-        height: 100%;   
-    }
-    .section3 .secondone .common .product .img img:hover{
-        transform: scale(1.03);
-    }
-    .section3 .secondone .common .product .prize{
-        width: 100%;
-        height: 40%;
-        padding-left: 20px;
-    }
-    .section3 .secondone .common .product .prize button{
-        height: 30%;
-        width: 80%;
-        border: none;
-        border-radius: 3px;
-        background-color: #D77F81;
-        color: white;
-        margin: 40px 0px;
-    }
-    .section3 .secondone .common .product .prize button a{
-        color: white; 
-        text-decoration: none;  
-    }
-    .section3 .secondone .product .prize b{
-        font-size: 16px;
-        height: 40%;
-        transform: translate(0px, 70px);
-    
-    }
-    .section3 .secondone .product .prize h3{
-        height: 20%;
-        transform: translate(0px,30px);
-      
-    }
-    .section3 .secondone .product .prize p{
-        height: 20%;
-        transform: translate(0px, 28px);
-    }
-    .section4{
-        height: 140vh;
-        width: 300px;
-        margin: 10px;
-        padding-left: 20px;
-    }
-    .section4 .online h2{
-        padding-top: 0px;
-        padding-left: 40px;
-        font-size: 30px;
-        color: #384A62;
-        height: 140px;
-        width: 300px;
-    
-    }
-    .section4 .online p{
-        padding-left: 40px;
-        font-size: 20px;
-        line-height: 27px;
-        height: 180px;
-        font-weight: 550;
-        color: #708aaa;
-        width: 300px;
-    }
-    .section4 .img {
-        width: 90%;
-    }
-    .section4 .img img{
-        margin: 20px 0px;
-    }
-    .section4 .img #margin{
-        display:block;
-        margin-left: 0px !important;
-    }
-    .section5{
-        height: 165vh;
-        background-color: #EDF6FD;
-        padding: 0px 100px 0px 10px;
-    }
-    .section5 h2{
-        height: 300px;
-        padding-top: 40px;
-        font-size: 30px;
-        font-weight: lighter;
-        padding-left: 10px;
-        color: #384A62;
-    }
-    .section5 .twitter{
-        display: flex;
-        flex-direction: column;
-    }
-    .section5 .twitter .comment{
-        display: flex;
-        border-radius: 5px;
-        width: 300px;
-        height: 210px;
-        box-shadow: 1px 1px 1px;
-        margin: 20px 0px;
-        background-color: white;
-    }
-    .section5 .twitter .comment #photo{
-        width: 12%;
-        padding: 10px 0px;
-    }
-    .section5 .twitter .comment #paragraph{
-        height: 100%;
-        padding-top: 15px;
-        width: 82%;
-    }
-    .section5 .twitter .comment #paragraph #para1{
-        height: 40%;
-        padding: 100px 0px;
-    }
-    .section5 .twitter .comment #paragraph p{
-        margin: 20px 0px;
-        line-height: 18px;
-    
-    }
-    .section5 .twitter .comment #paragraph p a{
-        color: #66C3F9;
-        text-decoration: none;
-    }
-    .section5 .twitter .comment #paragraph b a{
-        color: #66C3F9;
-        font-size: 14px;
-        text-decoration: none;
-    }
-    .section6 {
-        height: 100vh;
-        padding: 90px 0px 0px 10px;
-    }
-    .section6 h1{
-        font-size: 28px;
-        font-weight: lighter;
-        margin-left: 30px;
-    }
-    .section6 .message{
-        display: flex;
-        flex-direction: column;
-        padding: 30px 80px 0px 10px;
-    }
-    .section6 .message .turnaround{
-        display: flex;
-        width: 300px;
-        margin: 20px 20px;
-        line-height: 22px;
-    
-    }
-    .section6 .message .turnaround .quality b{
-     font-size: 16px;
-     margin: 0px 0px 0px 10px;
-    }
-    .section6 .message .turnaround .quality p{
-        margin: 10px 0px 0px 10px;
-        color: #677F9E;
-    }
-    .section7 {
-        height: 140vh;
-        padding: 40px 0px 0px 05px;
-        background-color: #F7F6F4; 
-    }
-    .section7 h1{
-        font-size: 31px;
-        margin: 10px 0px 0px 05px;
-        font-weight: lighter;
-    }
-    .section7 .logo{
-        display: flex;
-        flex-direction: column;
-    }
-    .section7 .logo .forbes{
-        display: flex;
-        margin: 40px 0px 0px 60px;
-        flex-direction: column;
-    }
-    .section7 .logo .forbes a{
-        margin: 30px 0px 0px 10px;
-    }
-    .section8{
-        height: 120vh;
-        padding: 80px 0px 0px 0px;
-        background-color: #ECE8D9;
-    }
-    .section8 .h1{
-        margin:10px 10px;
-    }
-    .section8 .input{
-        margin:10px 10px;  
-        display: flex;
-        flex-direction: column;
-    
-    } 
-    .section8 .input .search{
-        background-color: #fff;
-        height: 85px;
-        border-radius: 5px;
-        background-color: #ffff;
-        width: 300px;
-    }
-    .section8 .input .search input{
-        height: 100%;
-        width: 100%;
-        border-radius: 4px;
-        outline: none;
-        border: none;
-    }
-    .section8 .input .search input::placeholder{
-        font-size: 20px;
-        color: #708aaa;
-    }
-    .section8 .input .search1{
-        margin-left: 0px;
-        margin-top: 20px;
-        width: 300px;
-        background-color: #fff;
-        border-radius: 5px;
-        height: 85px;
-    }
-    .section8 .input .search1 input{
-        width: 200px;
-        border-radius: 5px;
-        height: 100%;
-        outline: none;
-        border: none;
-    }
-    .section8 .input .search1 button{
-        height: 70%;
-        background-color: #384A62;
-        border-radius: 5px;
-        width: 90px;
-        margin-top:3px ;
-    }
-    
-    .section8 .input .search1 button a{
-        text-decoration: none;
-        color: #ffff;
-        font-size: 20px;
-    }
-    .section8 .input .search1 input::placeholder{
-        margin-left: 40px;
-        color: #708aaa;
-        font-size: 20px;
-    }
-    .section9{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 200vh;
-        padding: 10px 0px 0px 0px;
-        background-color: #384A62;
-        color: #ffff;
-    }
-    .section9 .printivo h2{
-        font-size: 17px;
-    }
-    .section9 .printivo .element{
-        display: flex;
-        padding: 10px 0px 0px 0px;
-        flex-direction: column;
-    }
-    .section9 .printivo .element a{
-        text-decoration: none;
-        color: #ffff;
-        font-size: 14px;
-        margin: 10px 0px 0px 20px;
-    }
-    .section9 .printivo #daruz{
-        display: block;
-        justify-content: space-between;
-    }
-    .section9 .printivo #daruz #joy{
-        margin: 20px 0px 0px 30px;
-        font-size: 20px;
-    }
-    .last{
-        background-color: #ECE8D9;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-    } 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: roboto,helvetica neue,Arial, Helvetica, sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
+nav{ width: 100%;
+    padding: 0px;
+    display: flex;
+    height: 70px;
+    font-size: 13px;
+    background-color: #FfFF;
+    justify-content: space-around;
+}
+
+
+.nav{
+    display: none;
+
+}
+.nav2 #border a{
+    margin: 03px;
+    color: #73849B;
+}
+
+.nav2 #border{
+    padding-left: 3px;
+    height: 25px;
+    width: 80px;
+    display: flex;
+
+    border:0.2px solid rgb(87, 84, 84);
+    border-radius: 30px;
+}
+.nav{
+    margin-right: 40px;
+}
+.nav a{
+    margin:30px 30px;
+    color: #708aaa;
+    text-decoration: none;
+}
+.nav2 p{
+    margin:30px 10px ;
+    color: #708aaa;
+}
+.nav2 p a{
+    text-decoration: none;
+    color: #45B1F2;
+}
+
+.nav2{
+    width: 375px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section1{
+    background-color:#ECE8D9;
+    padding: 20px 10px;
+    width: 100% !important;
+    height: 12vh;
+    position: sticky;
+    top: 0.1px;
+    display: flex;
+
+}
+#section1 ul {
+    margin-top:10px ;
+    display: none;
+}
+#section1 ul li #sign{
+    color: red;
+}
+#section1 ul li{
+    margin-left: 40px;
+    list-style: none;
+}
+#section1 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+#section1 ul{
+    display: none;
+} 
+#section1 .menu button{
+    display: none;
+}
+#section1 .menu input{
+    display: none;
+}
+#section1 .img{
+    width: 35%;
+    padding: 0px 4px;
+}
+.section2{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: #ECE8D9;
+    height: 120vh;
+}
+.section2 .quality{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color: #ECE8D9;
+}
+.section2 .quality #print{
+    height: 60vh;
+}
+.section2 .quality h1{
+font-size: 10vh;
+color: #384A62;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+height: 30vh;
+}
+.section2 .quality #prints p{
+    height: 70px;
+    font-size: 26px;
+    color: #7F8C9D;
+    font-weight: bold;
+}
+.section2 .quality .search{
+    height: 30vh;
+}
+.section2 .quality .search p{
+    color: black;
+    height: 50px;
+}
+.section2 .quality .search #search1 input::placeholder{
+    font-size: medium;
+    height: 100%;
+    width: 100%;
+}
+.section2 .quality .search #search1 input{
+    outline-style: none;
+    border: none;
+    width: 190px;
+
+}
+.section2 .quality .search #search1 img{
+    width: 20px;
+    height: 20px;
+    margin: 30px;
+}
+.section2 .quality .search #search1{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    background-color: white;
+}
+.section2 .search p{
+    height: 50px;
+    font-weight: bold;
+    font-size: medium;
+}
+.section2 .img {
+    width: 100%;
+    height: 59vh;
+}
+.section2 .img img{
+    width: 100%;
+    height: 100%;
+}
+.section3{
+    height: 1400vh;
+    width: 100%;
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+}
+.section3 .h2{
+    
+    height: 40vh;
+    padding:  70px 0px 0px ;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.section3 .productlist{
+    display: flex;
+    width: 100%;
+    height: 1250vh;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+.section3 .productlist .product{
+    box-shadow: 2px 2px 2px 2px rgb(173, 164, 164);
+    height: 400px;
+    margin: 20px ;
+    width: 80%;
+}
+.section3 .productlist .product img:hover{
+    transform: scale(1.05);
+}
+.section3 .productlist .product img{
+    width: 100%;
+    height: 200px;
+}
+.section3 .productlist .product .prize{
+    width: 100%;
+    height: 40%;
+    padding-left: 20px;
+
+}
+.section3 .productlist .product .prize b{
+    font-size: 16px;
+    height: 40%;
+    transform: translate(0px, 70px);
+
+}
+.section3 .productlist .product .prize h3{
+    height: 20%;
+    transform: translate(0px,40px);
+    
+}
+.section3 .productlist .product .prize p{
+    height: 20%;
+    transform: translate(0px, 28px);
+}
+.section3 .productlist .product .prize button{
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 3px;
+    background-color: #D77F81;
+    color: white;
+    margin: 40px 0px;
+}
+.section3 .productlist .product .prize button a{
+    color: white;
+    text-decoration: none;
+}
+.section3 .h2 h2{
+    font-size: 32px;
+    font-weight: lighter;
+    margin-left: 29px;
+    color: #708aaa;
+}
+.section3 .h2 a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: #D77F81;
+    margin-right: 57px;
+}
+.section3 .secondone{
+    height: 300vh;
+    width: 100%;
+}
+.section3 .secondone .categories{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 10px 10px;
+    justify-content: space-between;
+}
+.section3 .secondone .categories h2{
+    font-size: 32px;
+    font-weight: lighter;
+    color: #708aaa;
+} 
+.section3 .secondone .categories a{
+    text-decoration: none;
+    color: #D77F81;
+}
+.section3 .secondone .common{
+    display: flex; 
+    height: 200vh;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 24px; 
+}
+.section3 .secondone .common .product{
+    height: 400px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgb(173, 164, 164);
+    margin: 20px 0px;
+} 
+.section3 .secondone .common .product .img{
+    width: 100%;
+    height: 55%;
+}
+.section3 .secondone .common .product .img img{
+    width: 99.5%;
+    margin: auto;
+    background-color: #BEBDBB;
+    height: 100%;   
+}
+.section3 .secondone .common .product .img img:hover{
+    transform: scale(1.03);
+}
+.section3 .secondone .common .product .prize{
+    width: 100%;
+    height: 40%;
+    padding-left: 20px;
+}
+.section3 .secondone .common .product .prize button{
+    height: 30%;
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    background-color: #D77F81;
+    color: white;
+    margin: 40px 0px;
+}
+.section3 .secondone .common .product .prize button a{
+    color: white; 
+    text-decoration: none;  
+}
+.section3 .secondone .product .prize b{
+    font-size: 16px;
+    height: 40%;
+    transform: translate(0px, 70px);
+
+}
+.section3 .secondone .product .prize h3{
+    height: 20%;
+    transform: translate(0px,30px);
+    
+}
+.section3 .secondone .product .prize p{
+    height: 20%;
+    transform: translate(0px, 28px);
+}
+.section4{
+    height: 200vh;
+    width: 300px;
+    margin: 10px;
+    padding-left: 20px;
+}
+.section4 .online h2{
+    padding-top: 0px;
+    padding-left: 40px;
+    font-size: 30px;
+    color: #384A62;
+    height: 140px;
+    width: 300px;
+
+}
+.section4 .online p{
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    height: 180px;
+    font-weight: 550;
+    color: #708aaa;
+    width: 300px;
+}
+.section4 .img {
+    width: 90%;
+}
+.section4 .img img{
+    margin: 20px 0px;
+}
+.section4 .img #margin{
+    display:block;
+    margin-left: 0px !important;
+}
+.section5{
+    height: 220vh;
+    background-color: #EDF6FD;
+    padding: 0px 100px 0px 10px;
+    width: 100% ;
+}
+.section5 h2{
+    height: 300px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 10px;
+    color: #384A62;
+}
+.section5 .twitter{
+    display: flex;
+    flex-direction: column;
+}
+.section5 .twitter .comment{
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    height: 210px;
+    box-shadow: 1px 1px 1px;
+    margin: 20px 0px;
+    background-color: white;
+}
+.section5 .twitter .comment #photo{
+    width: 12%;
+    padding: 10px 0px;
+}
+.section5 .twitter .comment #paragraph{
+    height: 100%;
+    padding-top: 15px;
+    width: 82%;
+}
+.section5 .twitter .comment #paragraph #para1{
+    height: 40%;
+    padding: 100px 0px;
+}
+.section5 .twitter .comment #paragraph p{
+    margin: 20px 0px;
+    line-height: 18px;
+
+}
+.section5 .twitter .comment #paragraph p a{
+    color: #66C3F9;
+    text-decoration: none;
+}
+.section5 .twitter .comment #paragraph b a{
+    color: #66C3F9;
+    font-size: 14px;
+    text-decoration: none;
+}
+.section6 {
+    height: 180vh;
+    padding: 90px 0px 0px 0px;
+}
+.section6 h1{
+    font-size: 28px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.section6 .message{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px 0px 10px;
+}
+.section6 .message .turnaround{
+    display: flex;
+    width: 100%;
+    margin: 20px 20px;
+    line-height: 22px;
+
+}
+.section6 .message .turnaround .quality b{
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+}
+.section6 .message .turnaround .quality p{
+    margin: 10px 0px 0px 10px;
+    color: #677F9E;
+}
+.section7 {
+    height: 170vh;
+    padding: 40px 0px 0px 05px;
+    background-color: #F7F6F4; 
+}
+.section7 h1{
+    font-size: 31px;
+    margin: 10px 0px 0px 05px;
+    font-weight: lighter;
+}
+.section7 .logo{
+    display: flex;
+    flex-direction: column;
+}
+.section7 .logo .forbes{
+    display: flex;
+    margin: 40px 0px 0px 60px;
+    flex-direction: column;
+}
+.section7 .logo .forbes a{
+    margin: 30px 0px 0px 10px;
+}
+.section8{
+    height: 120vh;
+    padding: 80px 0px 0px 0px;
+    background-color: #ECE8D9;
+}
+.section8 .h1{
+    margin:10px 10px;
+}
+.section8 .input{
+    margin:10px 10px;  
+    display: flex;
+    flex-direction: column;
+
+} 
+.section8 .input .search{
+    background-color: #fff;
+    height: 85px;
+    border-radius: 5px;
+    background-color: #ffff;
+    width: 300px;
+}
+.section8 .input .search input{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.section8 .input .search input::placeholder{
+    font-size: 20px;
+    color: #708aaa;
+}
+.section8 .input .search1{
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 85px;
+}
+.section8 .input .search1 input{
+    width: 200px;
+    border-radius: 5px;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+.section8 .input .search1 button{
+    height: 70%;
+    background-color: #384A62;
+    border-radius: 5px;
+    width: 90px;
+    margin-top:3px ;
+}
+
+.section8 .input .search1 button a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
+.section8 .input .search1 input::placeholder{
+    margin-left: 40px;
+    color: #708aaa;
+    font-size: 20px;
+}
+.section9{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 230vh;
+    padding: 10px 0px 0px 0px;
+    background-color: #384A62;
+    color: #ffff;
+}
+.section9 .printivo h2{
+    font-size: 17px;
+}
+.section9 .printivo .element{
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    flex-direction: column;
+}
+.section9 .printivo .element a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    margin: 10px 0px 0px 20px;
+}
+.section9 .printivo #daruz{
+    display: block;
+    justify-content: space-between;
+}
+.section9 .printivo #daruz #joy{
+    margin: 20px 0px 0px 30px;
+    font-size: 20px;
+}
+.last{
+    background-color: #ECE8D9;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+} 
